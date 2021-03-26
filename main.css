@@ -1,0 +1,57 @@
+p{
+    color:#3eb5df;
+}
+#menu ul{
+
+    background-color: #6fc3df;
+    list-style-type: none;
+    text-align: center; 
+    overflow: hidden;
+    width: 100%;
+    margin-top: -15px;
+    display:flex ;
+    justify-content: flex-start ; 
+}
+#menu li{
+    
+    color:#333;
+    float: left;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -20px;
+    padding: 10px;
+
+}
+#menu a:hover{
+    color: cornsilk;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+.title{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-left: 100px;
+}
+.title h3{
+    color:lightblue;
+    text-decoration: none;
+}
+.form{
+    width: 50%;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input label{
+    width: 200px;
+    align-items: center;
+}
+.input input{
+    padding: 10px 90px;
+}
