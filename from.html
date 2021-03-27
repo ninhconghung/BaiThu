@@ -24,28 +24,64 @@
     </div>
 
     <div class="title">
-        <h3 >ĐĂNG KÍ TÀI KHOẢNffffff</h3>
-    </div>
-    <div class="form">
-    <h4>Chi Tiết Tài Khoảnqqqqqqqqqq</h4>
+        <h3 >ĐĂNG KÍ TÀI KHOẢN</h3> 
+    </div> 
+    <div class="form">       
+            <h4>Chi Tiết Tài Khoản</h4>       
         <form >                     
             <div class="input">
-                <label class="">Tên Đăng Nhập</label>
-                <input/>
+                <label class="required">Tên Đăng Nhập</label>
+                <input tyle="text" name="Tên Đăng Nhập">
             </div>
             <div class="input">
-                <label class="">Mật Khẩu</label>
-                 <input/>
+                <label class="required">Mật Khẩu</label>
+                 <input tyle="text" name="Mật Khẩu">
             </div>
             <div class="input">
-                <label class="">Xác Nhận Mật Khẩu</label>
-                 <input/>
+                <label class="required">Xác Nhận Mật Khẩu</label>
+                 <input type="text" name="Xác Nhận Mật Khẩu">
             </div>
             <div class="input">
-                <label class="">Email</label>
-                 <input/>
+                <label class="required">Email</label>
+                 <input tyle ="email" name="Email">
             </div>
         </form>
     </div>
+    <div class="form">       
+        <h4>Thông Tin Người Sử Dụng</h4>       
+        <form >                     
+            <div class="input">
+                <label class="required">Họ Và Tên</label>
+                <input tyle="text" name="Tên Đăng Nhập">
+            </div>
+            <div class="input">
+                <label class="required">Giới Tính</label>
+                <input type="radio" value="0" name="Giới Tính">
+                <label>nam</label>
+                <input type="radio" value="1" name="Giới Tính">
+                <label>nữ</label>
+            </div>
+            <div class="input">
+                <label class="required">Ngày Sinh</label>
+                <input type="date" name="Ngày Sinh">
+            </div>
+            <div class="input">
+                <label class="required">Địa Chỉ</label>
+                <input tyle ="text" name="Địa Chỉ" >
+            </div>
+            <div class="input">
+                <label class="required">Số Điện Thoại</label>
+                <input tyle ="Phone" name="Số Điện Thoại">
+            </div>  
+        </form>
+    </div>
+
+<div >
+    <input type="submit" value="Đồng ý" id="submit" >
+</div>
+<div class="reset">
+    <input type="reset" value="Nhập Lại" >
+</div>
+
 </body>
 </html>

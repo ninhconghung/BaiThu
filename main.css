@@ -31,27 +31,63 @@ p{
     color: black;
 }
 .title{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    margin-left: 100px;
+    text-align: center;
+    color:#2dd1f6;
 }
-.title h3{
-    color:lightblue;
-    text-decoration: none;
-}
+
 .form{
-    width: 50%;
+    width: 48%;
+    border: 1px solid gray;
+    display: inline-block;
+    margin-left: 20px;
+    float: left;
 }
+
 .input{
-    width: 100%;
     display: flex;
-    justify-content: center;
+    margin-top: 4px;
+    padding-left: 10px;
+    
 }
 .input label{
     width: 200px;
-    align-items: center;
+    margin-left: 0%;
+    
 }
 .input input{
-    padding: 10px 90px;
+    padding: 7px 185px;
+    border-radius: 7px;
+    border-color: rgb(189, 186, 186);
 }
+.input :hover{
+    border-color: black;
+}
+h4{
+    color: white;
+    background-color: #43d0f2;
+    display: block;
+    height: 35px;
+    line-height: 32px;
+    margin-top: 0px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+h3{
+    margin-top: -10px;
+}
+.required::after{
+    content: "*";
+    color: red;
+}
+#submit{
+    margin-left: 45%;
+    margin-top: 30px;
+    
+}
+.reset{
+    margin-left: 51%;
+    margin-top: -22px; 
+}
+
+
+
